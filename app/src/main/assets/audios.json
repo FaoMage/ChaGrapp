@@ -1,0 +1,613 @@
+{
+  "audios": [
+    {
+      "audioId": "1",
+      "audioDisplayName": "Aullido",
+      "audioDisplayAuthor": "Amnesia",
+      "audioRawName": "amnesia_aullido",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "2",
+      "audioDisplayName": "Run Bitch",
+      "audioDisplayAuthor": "Amnesia",
+      "audioRawName": "amnesia_runbitch",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "3",
+      "audioDisplayName": "Alibi",
+      "audioDisplayAuthor": "AoE2",
+      "audioRawName": "aoe2_alibi",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "4",
+      "audioDisplayName": "Attack",
+      "audioDisplayAuthor": "AoE2",
+      "audioRawName": "aoe2_attack",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "5",
+      "audioDisplayName": "Barracks",
+      "audioDisplayAuthor": "AoE2",
+      "audioRawName": "aoe2_barracks",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "6",
+      "audioDisplayName": "Car",
+      "audioDisplayAuthor": "AoE2",
+      "audioRawName": "aoe2_car",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "7",
+      "audioDisplayName": "Create",
+      "audioDisplayAuthor": "AoE2",
+      "audioRawName": "aoe2_create",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "8",
+      "audioDisplayName": "Death",
+      "audioDisplayAuthor": "AoE2",
+      "audioRawName": "aoe2_death",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "9",
+      "audioDisplayName": "Defeat",
+      "audioDisplayAuthor": "AoE2",
+      "audioRawName": "aoe2_defeat",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "10",
+      "audioDisplayName": "Pavo",
+      "audioDisplayAuthor": "AoE2",
+      "audioRawName": "aoe2_pavo",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "11",
+      "audioDisplayName": "Risa",
+      "audioDisplayAuthor": "AoE2",
+      "audioRawName": "aoe2_risa",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "12",
+      "audioDisplayName": "Roggan",
+      "audioDisplayAuthor": "AoE2",
+      "audioRawName": "aoe2_roggan",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "13",
+      "audioDisplayName": "Under Attack",
+      "audioDisplayAuthor": "AoE2",
+      "audioRawName": "aoe2_underattack",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "14",
+      "audioDisplayName": "University",
+      "audioDisplayAuthor": "AoE2",
+      "audioRawName": "aoe2_university",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "15",
+      "audioDisplayName": "Wololo",
+      "audioDisplayAuthor": "AoE2",
+      "audioRawName": "aoe2_wololo",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "16",
+      "audioDisplayName": "356575",
+      "audioDisplayAuthor": "ChaGracia",
+      "audioRawName": "chagracia_356575",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "17",
+      "audioDisplayName": "Adrian a que hora",
+      "audioDisplayAuthor": "ChaGracia",
+      "audioRawName": "chagracia_adrianaquehora",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "18",
+      "audioDisplayName": "Adrian cuando vas a venir",
+      "audioDisplayAuthor": "ChaGracia",
+      "audioRawName": "chagracia_adriancuandovasavenir",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "19",
+      "audioDisplayName": "Adrian donde estas",
+      "audioDisplayAuthor": "ChaGracia",
+      "audioRawName": "chagracia_adriandondeestas",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "20",
+      "audioDisplayName": "Adrian helado Amnesia",
+      "audioDisplayAuthor": "ChaGracia",
+      "audioRawName": "chagracia_adrianheladoamnesia",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "21",
+      "audioDisplayName": "Adrian jugando teg",
+      "audioDisplayAuthor": "ChaGracia",
+      "audioRawName": "chagracia_adrianjugandoteg",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "22",
+      "audioDisplayName": "Adrian no te olvides el helado",
+      "audioDisplayAuthor": "ChaGracia",
+      "audioRawName": "chagracia_adriannoteolvideshelado_long",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "23",
+      "audioDisplayName": "Adrian Pavo",
+      "audioDisplayAuthor": "ChaGracia",
+      "audioRawName": "chagracia_adrianpavo",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "24",
+      "audioDisplayName": "Adrian perdiste lechizon",
+      "audioDisplayAuthor": "ChaGracia",
+      "audioRawName": "chagracia_adrianperdistelechuzon",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "25",
+      "audioDisplayName": "Adrian que te hizo el pescado",
+      "audioDisplayAuthor": "ChaGracia",
+      "audioRawName": "chagracia_adrianquetehizoelpescado",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "26",
+      "audioDisplayName": "Chillido chancho Tomi",
+      "audioDisplayAuthor": "ChaGracia",
+      "audioRawName": "chagracia_chillidochanchotommy",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "27",
+      "audioDisplayName": "Claclanclanc",
+      "audioDisplayAuthor": "ChaGracia",
+      "audioRawName": "chagracia_claclanclanc",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "28",
+      "audioDisplayName": "Cuando vas a venir HighFreq",
+      "audioDisplayAuthor": "ChaGracia",
+      "audioRawName": "chagracia_cuandovasavenir_highfreq",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "29",
+      "audioDisplayName": "Deja de morder almohada",
+      "audioDisplayAuthor": "ChaGracia",
+      "audioRawName": "chagracia_dejamorderalmohadaadrian",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "30",
+      "audioDisplayName": "Eres un idiota",
+      "audioDisplayAuthor": "ChaGracia",
+      "audioRawName": "chagracia_eresunidiota",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "31",
+      "audioDisplayName": "Ese cambio no",
+      "audioDisplayAuthor": "ChaGracia",
+      "audioRawName": "chagracia_esecambiono",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "32",
+      "audioDisplayName": "Espejito Adrian",
+      "audioDisplayAuthor": "ChaGracia",
+      "audioRawName": "chagracia_espejitoadrian",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "33",
+      "audioDisplayName": "Garrafa",
+      "audioDisplayAuthor": "ChaGracia",
+      "audioRawName": "chagracia_garrafa",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "34",
+      "audioDisplayName": "Its a Trap",
+      "audioDisplayAuthor": "ChaGracia",
+      "audioRawName": "chagracia_itsatrap",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "35",
+      "audioDisplayName": "Lcdlr Jaz",
+      "audioDisplayAuthor": "ChaGracia",
+      "audioRawName": "chagracia_lcdlrjaz",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "36",
+      "audioDisplayName": "Lo mato",
+      "audioDisplayAuthor": "ChaGracia",
+      "audioRawName": "chagracia_lomato",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "37",
+      "audioDisplayName": "Lo que se viene",
+      "audioDisplayAuthor": "ChaGracia",
+      "audioRawName": "chagracia_loqueseviene",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "38",
+      "audioDisplayName": "Mas cerca lechuzon",
+      "audioDisplayAuthor": "ChaGracia",
+      "audioRawName": "chagracia_mascercalechuzon",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "39",
+      "audioDisplayName": "Me muero Fer",
+      "audioDisplayAuthor": "ChaGracia",
+      "audioRawName": "chagracia_memuerofer",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "40",
+      "audioDisplayName": "Noal Noal Massa",
+      "audioDisplayAuthor": "ChaGracia",
+      "audioRawName": "chagracia_noalnoalnoal",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "41",
+      "audioDisplayName": "Pavo tomi",
+      "audioDisplayAuthor": "ChaGracia",
+      "audioRawName": "chagracia_pavotommy",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "42",
+      "audioDisplayName": "Pedi dale",
+      "audioDisplayAuthor": "ChaGracia",
+      "audioRawName": "chagracia_pedidale",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "43",
+      "audioDisplayName": "Pobrecito tu pito",
+      "audioDisplayAuthor": "ChaGracia",
+      "audioRawName": "chagracia_pobrecitotupito",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "44",
+      "audioDisplayName": "Pone Dale",
+      "audioDisplayAuthor": "ChaGracia",
+      "audioRawName": "chagracia_ponedale",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "45",
+      "audioDisplayName": "Que dificil",
+      "audioDisplayAuthor": "ChaGracia",
+      "audioRawName": "chagracia_quedificil",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "46",
+      "audioDisplayName": "Rallando Muzzarella",
+      "audioDisplayAuthor": "ChaGracia",
+      "audioRawName": "chagracia_rallandomuzarella",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "47",
+      "audioDisplayName": "Romper algo",
+      "audioDisplayAuthor": "ChaGracia",
+      "audioRawName": "chagracia_romperalgo",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "48",
+      "audioDisplayName": "Servi de algo",
+      "audioDisplayAuthor": "ChaGracia",
+      "audioRawName": "chagracia_servidealgo",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "49",
+      "audioDisplayName": "Si seras un lechuzon",
+      "audioDisplayAuthor": "ChaGracia",
+      "audioRawName": "chagracia_siserasunlechuzon",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "50",
+      "audioDisplayName": "Taru dura taru",
+      "audioDisplayAuthor": "ChaGracia",
+      "audioRawName": "chagracia_tarudurataru",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "51",
+      "audioDisplayName": "The all progerher toblems",
+      "audioDisplayAuthor": "ChaGracia",
+      "audioRawName": "chagracia_theallprogethertoblems",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "52",
+      "audioDisplayName": "Todos los caminos a la garrafa",
+      "audioDisplayAuthor": "ChaGracia",
+      "audioRawName": "chagracia_todosloscaminosgarrafa",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "53",
+      "audioDisplayName": "Tomi se babosea",
+      "audioDisplayAuthor": "ChaGracia",
+      "audioRawName": "chagracia_tommysebabosea",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "54",
+      "audioDisplayName": "Trapito Adri",
+      "audioDisplayAuthor": "ChaGracia",
+      "audioRawName": "chagracia_trapitoadri",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "55",
+      "audioDisplayName": "Vamo boca carajo",
+      "audioDisplayAuthor": "ChaGracia",
+      "audioRawName": "chagracia_vamobocacarajo",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "56",
+      "audioDisplayName": "Vas a ver Jacinto",
+      "audioDisplayAuthor": "ChaGracia",
+      "audioRawName": "chagracia_vasaverjacinto",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "57",
+      "audioDisplayName": "Yo te voy a explicar",
+      "audioDisplayAuthor": "ChaGracia",
+      "audioRawName": "chagracia_yotevoyaexplicar",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "58",
+      "audioDisplayName": "And his name is",
+      "audioDisplayAuthor": "John Cena",
+      "audioRawName": "johncena_andhisname",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "59",
+      "audioDisplayName": "Call complete",
+      "audioDisplayAuthor": "John Cena",
+      "audioRawName": "johncena_callcomplete",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "60",
+      "audioDisplayName": "Color de piel",
+      "audioDisplayAuthor": "Marito Baracus",
+      "audioRawName": "maritobaracus_colordepiel",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "61",
+      "audioDisplayName": "Comboloco Cocombo",
+      "audioDisplayAuthor": "Marito Baracus",
+      "audioRawName": "maritobaracus_combolococombocombolo",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "62",
+      "audioDisplayName": "Combo loco precioso",
+      "audioDisplayAuthor": "Marito Baracus",
+      "audioRawName": "maritobaracus_combolocoprecioso",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "63",
+      "audioDisplayName": "Denme toda la plata",
+      "audioDisplayAuthor": "Marito Baracus",
+      "audioRawName": "maritobaracus_denmetodalaplata",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "64",
+      "audioDisplayName": "El colesterol Kano",
+      "audioDisplayAuthor": "Marito Baracus",
+      "audioRawName": "maritobaracus_elcolesterolkano",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "65",
+      "audioDisplayName": "Industria Nacional",
+      "audioDisplayAuthor": "Marito Baracus",
+      "audioRawName": "maritobaracus_industrianacional",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "66",
+      "audioDisplayName": "Lo veo en tu color de piel",
+      "audioDisplayAuthor": "Marito Baracus",
+      "audioRawName": "maritobaracus_loveoentucolordepiel",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "67",
+      "audioDisplayName": "Maestruli",
+      "audioDisplayAuthor": "Marito Baracus",
+      "audioRawName": "maritobaracus_maestruli",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "68",
+      "audioDisplayName": "Me chupa un huevo",
+      "audioDisplayAuthor": "Marito Baracus",
+      "audioRawName": "maritobaracus_mechupaunhuevo",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "69",
+      "audioDisplayName": "Mortal Kombat",
+      "audioDisplayAuthor": "Marito Baracus",
+      "audioRawName": "maritobaracus_mrtlkmbt",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "70",
+      "audioDisplayName": "Preparen el ojete",
+      "audioDisplayAuthor": "Marito Baracus",
+      "audioRawName": "maritobaracus_preparenelojete",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "71",
+      "audioDisplayName": "Su motor",
+      "audioDisplayAuthor": "Marito Baracus",
+      "audioRawName": "maritobaracus_sumotor",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "72",
+      "audioDisplayName": "Tenes que hacer Joda",
+      "audioDisplayAuthor": "Marito Baracus",
+      "audioRawName": "maritobaracus_tenesquehacerjoda",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "73",
+      "audioDisplayName": "Mortal Kombat Gay",
+      "audioDisplayAuthor": "Marito Baracus",
+      "audioRawName": "maritobaracus_mortalkombatgay",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "74",
+      "audioDisplayName": "Chocoloca",
+      "audioDisplayAuthor": "Misc",
+      "audioRawName": "misc_chocoloca",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "75",
+      "audioDisplayName": "Gandalf Sax",
+      "audioDisplayAuthor": "Misc",
+      "audioRawName": "misc_gandalfsax",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "76",
+      "audioDisplayName": "Give Pain",
+      "audioDisplayAuthor": "Misc",
+      "audioRawName": "misc_givepain",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "77",
+      "audioDisplayName": "Muelitas (+18)",
+      "audioDisplayAuthor": "Misc",
+      "audioRawName": "misc_muelitas",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "78",
+      "audioDisplayName": "Porteñas",
+      "audioDisplayAuthor": "Misc",
+      "audioRawName": "misc_portenias",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "79",
+      "audioDisplayName": "Risa macabra",
+      "audioDisplayAuthor": "Misc",
+      "audioRawName": "misc_risamacabra",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "80",
+      "audioDisplayName": "Say what",
+      "audioDisplayAuthor": "Misc",
+      "audioRawName": "misc_saywhat",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "81",
+      "audioDisplayName": "Te gusta la cajeta?",
+      "audioDisplayAuthor": "Misc",
+      "audioRawName": "misc_tegustalacajeta",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "82",
+      "audioDisplayName": "Vayan a estudiar",
+      "audioDisplayAuthor": "Misc",
+      "audioRawName": "misc_vayanaestudiar",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "83",
+      "audioDisplayName": "Watch it",
+      "audioDisplayAuthor": "Misc",
+      "audioRawName": "misc_watchit",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "84",
+      "audioDisplayName": "Carpintero",
+      "audioDisplayAuthor": "Misc",
+      "audioRawName": "zombies_carpintero",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "85",
+      "audioDisplayName": "Vamo?",
+      "audioDisplayAuthor": "ChaGracia",
+      "audioRawName": "chagracia_vamovamo",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "86",
+      "audioDisplayName": "Ya estas en los 25",
+      "audioDisplayAuthor": "ChaGracia",
+      "audioRawName": "chagracia_yaestasenlos25",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "87",
+      "audioDisplayName": "No me hagas mostrar el culo",
+      "audioDisplayAuthor": "ChaGracia",
+      "audioRawName": "chagracia_nohagasmostrarelculo",
+      "audioShow": "1"
+    }
+  ]
+}

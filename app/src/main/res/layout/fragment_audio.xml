@@ -1,0 +1,44 @@
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="com.zetaxmage.chagrapp.View.AudioActivity.AudioFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorDarkAccent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.simplecityapps.recyclerview_fastscroll.views.FastScrollRecyclerView
+                android:id="@+id/recyclerView_sound"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                app:fastScrollPopupBgColor="@color/colorAccent"
+                app:fastScrollPopupTextColor="@android:color/primary_text_dark"
+                app:fastScrollThumbColor="@color/colorAccent"
+                app:fastScrollAutoHide="false"
+                app:fastScrollPopupTextSize="35sp"
+                app:fastScrollPopupBackgroundSize="60dp"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_audioStop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_stop_black_24dp"
+        app:fabSize="normal"
+        app:layout_anchor="@id/recyclerView_sound"
+        app:layout_anchorGravity="bottom|center_horizontal"
+        android:layout_marginBottom="25dp"
+        android:visibility="invisible" />
+</android.support.design.widget.CoordinatorLayout>
