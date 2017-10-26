@@ -597,7 +597,7 @@
     },
     {
       "audioId": "86",
-      "audioDisplayName": "Ya estas en los 25",
+      "audioDisplayName": "Ya estas en los 25 (1)",
       "audioDisplayAuthor": "ChaGracia",
       "audioRawName": "chagracia_yaestasenlos25",
       "audioShow": "1"
@@ -607,6 +607,20 @@
       "audioDisplayName": "No me hagas mostrar el culo",
       "audioDisplayAuthor": "ChaGracia",
       "audioRawName": "chagracia_nohagasmostrarelculo",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "88",
+      "audioDisplayName": "Ya estas en los 25 (2)",
+      "audioDisplayAuthor": "ChaGracia",
+      "audioRawName": "chagracia_jaz2425",
+      "audioShow": "1"
+    },
+    {
+      "audioId": "89",
+      "audioDisplayName": "Que malo jacintitou",
+      "audioDisplayAuthor": "ChaGracia",
+      "audioRawName": "chagracia_quemalojacintituo",
       "audioShow": "1"
     }
   ]

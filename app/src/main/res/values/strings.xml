@@ -11,7 +11,7 @@
 
     <string name="main_button_audios">audios</string>
     <string name="main_textview_version">Versión 1.2 (beta)</string>
-    <string name="main_textview_dev">Dev by ZetaxMage</string>
+    <string name="main_textview_dev">Dev by FaoMage</string>
 
     <string name="menu_sort_name">Ordenar por Nombre</string>
     <string name="menu_sort_category">Ordenar por Categoria</string>
@@ -21,10 +21,10 @@
     <string name="season_button_mistery">boton misterioso</string>
 
     <string name="about_tittle_dev">Desarrollador</string>
-    <string name="about_textview_devname">Fernando Orgeira (ZetaxMage)</string>
+    <string name="about_textview_devname">Fernando Orgeira (FaoMage)</string>
     <string name="about_textview_devmail">fernando.orgeira@gmail.com</string>
     <string name="about_tittle_aboutapp">Sobre la app</string>
-    <string name="about_textview_github">github.com/ZetaxMage/ChaGrapp</string>
+    <string name="about_textview_github">github.com/FaoMage/ChaGrapp</string>
     <string name="about_textview_description">Proyecto disponible en GitHub únicamente para su visualización. \n\nLa carpeta \'raw\' no estará incluída en dicha versión para la seguridad de los autores de los audios.  \n\nAnte cualquier duda contactar al desarrolador.</string>
     <string name="about_tittle_changelog">Change Log</string>
     <string name="about_subtittle_v1_2">Versión 1.2: Beta Launch!</string>
