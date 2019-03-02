@@ -10,10 +10,10 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 public class DataBaseHelper extends SQLiteOpenHelper {
 
-    public static final String DB_NAME = "ChaGrappDB";
-    public static final Integer DB_VERSION = 1;
+    private static final String DB_NAME = "ChaGrappDB";
+    private static final Integer DB_VERSION = 1;
 
-    public DataBaseHelper(Context context) {
+    DataBaseHelper(Context context) {
         super(context, DB_NAME, null, DB_VERSION);
     }
 

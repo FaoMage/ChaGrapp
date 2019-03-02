@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorGrey"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/myTittle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/new_20_tittle_whats" />
+
+        <TextView
+            style="@style/myText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/new_20_text_whats" />
+
+        <TextView
+            style="@style/myTittle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/new_20_tittle_v2" />
+
+        <TextView
+            style="@style/myText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/new_20_text_v2" />
+
+        <TextView
+            style="@style/myTittle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/new_20_tittle_audio" />
+
+        <TextView
+            style="@style/mySubTittle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/new_20_sub_audio_rp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:src="@drawable/new_audio"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            style="@style/myText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/new_20_text_audio_rp" />
+
+        <TextView
+            style="@style/mySubTittle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/new_20_sub_audio_ra" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="15dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/new_random"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/new_20_text_audio_ra"
+                android:textSize="18sp"
+                android:textColor="@android:color/black"
+                android:layout_marginStart="10dp"/>
+        </LinearLayout>
+
+
+        <TextView
+            style="@style/mySubTittle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/new_20_sub_audio_md" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp">
+
+            <TextView
+                android:id="@+id/text_new"
+                android:layout_toStartOf="@id/img_new"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/new_20_text_audio_md1"
+                android:textSize="18sp"
+                android:textColor="@android:color/black"
+                android:layout_marginEnd="10dp"/>
+
+            <ImageView
+                android:id="@+id/img_new"
+                android:layout_alignParentEnd="true"
+                android:layout_alignBottom="@id/text_new"
+                android:layout_alignTop="@id/text_new"
+                android:layout_width="110dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/new_stack"
+                android:scaleType="fitCenter"/>
+        </RelativeLayout>
+
+        <TextView
+            style="@style/myText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/new_20_text_audio_md2" />
+
+
+        <TextView
+            style="@style/myTittle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/new_20_tittle_login" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/new_log"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center"
+            android:padding="10dp"/>
+
+        <TextView
+            style="@style/myText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/new_20_text_login" />
+
+        <TextView
+            style="@style/myTittle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/new_20_tittle_steps" />
+
+        <TextView
+            style="@style/myText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/new_20_text_steps" />
+
+        <Button
+            android:id="@+id/new_20_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/new_20_button"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"/>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

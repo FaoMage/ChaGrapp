@@ -12,95 +12,77 @@
         android:orientation="vertical">
 
         <TextView
+            style="@style/myTittle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/about_tittle_dev"
-            android:textSize="25sp"
-            android:textStyle="bold"
-            android:textColor="@color/colorDarkAccent"
-            android:layout_margin="10dp"/>
+            android:text="@string/about_tittle_dev"/>
 
         <TextView
+            style="@style/mySubTittle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/about_textview_devname"
-            android:textSize="20sp"
-            android:textStyle="bold"
-            android:textColor="@android:color/black"
-            android:layout_marginStart="10dp"
-            android:layout_marginEnd="10dp"/>
+            android:text="@string/about_sub_devname" />
 
         <TextView
+            style="@style/myText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/about_textview_devmail"
-            android:textSize="18sp"
-            android:textColor="@android:color/black"
-            android:layout_marginTop="5dp"
-            android:layout_marginStart="10dp"
-            android:layout_marginEnd="10dp"/>
+            android:text="@string/about_text_devmail"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/myTittle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about_tittle_github"/>
+
+            <ImageView
+                android:id="@+id/img_button_source"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_open_in_new_black_20dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp" />
+        </LinearLayout>
 
         <TextView
+            style="@style/mySubTittle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/about_tittle_aboutapp"
-            android:textSize="25sp"
-            android:textStyle="bold"
-            android:textColor="@color/colorDarkAccent"
-            android:layout_marginStart="10dp"
-            android:layout_marginBottom="10dp"
-            android:layout_marginTop="20dp"/>
+            android:text="@string/about_sub_github" />
 
         <TextView
+            style="@style/myText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/about_textview_github"
-            android:textSize="20sp"
-            android:textStyle="bold"
-            android:textColor="@android:color/black"
-            android:layout_marginStart="10dp"
-            android:layout_marginEnd="10dp"/>
+            android:text="@string/about_text_github" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/myTittle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about_tittle_change" />
+
+            <ImageView
+                android:id="@+id/img_button_change"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_open_in_new_black_20dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"/>
+        </LinearLayout>
 
         <TextView
+            style="@style/myText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/about_textview_description"
-            android:textSize="18sp"
-            android:textColor="@android:color/black"
-            android:layout_marginTop="5dp"
-            android:layout_marginStart="10dp"
-            android:layout_marginEnd="10dp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/about_tittle_changelog"
-            android:textSize="25sp"
-            android:textStyle="bold"
-            android:textColor="@color/colorDarkAccent"
-            android:layout_marginStart="10dp"
-            android:layout_marginBottom="10dp"
-            android:layout_marginTop="20dp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/about_subtittle_v1_2"
-            android:textSize="20sp"
-            android:textStyle="bold"
-            android:textColor="@android:color/black"
-            android:layout_marginStart="10dp"
-            android:layout_marginEnd="10dp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/about_textview_v1_2"
-            android:textSize="18sp"
-            android:textColor="@android:color/black"
-            android:layout_marginTop="5dp"
-            android:layout_marginStart="10dp"
-            android:layout_marginEnd="10dp"
-            android:layout_marginBottom="10dp"/>
+            android:text="@string/about_text_change" />
     </LinearLayout>
 </ScrollView>

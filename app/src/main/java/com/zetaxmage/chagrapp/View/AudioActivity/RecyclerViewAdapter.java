@@ -1,14 +1,12 @@
 package com.zetaxmage.chagrapp.View.AudioActivity;
 
 import android.content.Context;
-import android.support.annotation.NonNull;
-import android.support.v7.widget.RecyclerView;
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.TextView;
-
 
 import com.simplecityapps.recyclerview_fastscroll.views.FastScrollRecyclerView;
 import com.zetaxmage.chagrapp.Model.POJO.Audio;
@@ -27,7 +25,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
     private RecyclerSongInterface listener;
     private Boolean audioSort;
 
-    public RecyclerViewAdapter(Context context, List<Audio> audioList, RecyclerSongInterface listener, Boolean audioSort) {
+    RecyclerViewAdapter(Context context, List<Audio> audioList, RecyclerSongInterface listener, Boolean audioSort) {
         this.context = context;
         this.audioList = audioList;
         this.listener = listener;
@@ -35,22 +33,23 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
     }
 
     // Metodo para inforar que hubo un cambio en el orden
-    public void notifyAudioSortChanged(Boolean order) {
+    void notifyAudioSortChanged(Boolean order) {
         audioSort = order;
     }
 
+    @NonNull
     @Override
-    public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+    public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         LayoutInflater layoutInflater = LayoutInflater.from(context);
         View view = layoutInflater.inflate(R.layout.structure_recycler_v2,parent,false);
         return new ViewHolder(view);
     }
 
     @Override
-    public void onBindViewHolder(ViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         final Audio audio = getItem(position);
         holder.loadView(audio);
-        holder.imageViewPlayButton.setOnClickListener(new View.OnClickListener() {
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 listener.onClickPlay(audio);
@@ -63,7 +62,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
         return audioList.size();
     }
 
-    public Audio getItem (int position) {
+    private Audio getItem(int position) {
         return audioList.get(position);
     }
 
@@ -72,25 +71,23 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
     @Override
     public String getSectionName(int position) {
         if (audioSort) {
-            Character c = getItem(position).getAudioDisplayName().charAt(0);
-            return c.toString();
+            char c = getItem(position).getAudioDisplayName().charAt(0);
+            return Character.toString(c);
         } else {
             return getItem(position).getAudioDisplayAuthor();
         }
     }
 
     // ViewHolder
-    public class ViewHolder extends RecyclerView.ViewHolder {
+    class ViewHolder extends RecyclerView.ViewHolder {
 
         TextView textViewAudioName;
         TextView textViewAudioAuthor;
-        ImageView imageViewPlayButton;
 
-        public ViewHolder(View itemView) {
+        ViewHolder(View itemView) {
             super(itemView);
             textViewAudioName = itemView.findViewById(R.id.textView_audioName);
             textViewAudioAuthor = itemView.findViewById(R.id.textView_audioAuthor);
-            imageViewPlayButton = itemView.findViewById(R.id.imageView_playButton);
         }
 
         public void loadView (Audio audio) {

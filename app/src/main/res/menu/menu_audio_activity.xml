@@ -1,13 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-    <item
-        android:id="@+id/menu_ordenar_nombre"
-        android:title="@string/menu_sort_name"
-        app:showAsAction="never"/>
-    <item
-        android:id="@+id/menu_ordenar_autor"
-        android:title="@string/menu_sort_category"
-        app:showAsAction="never"/>
 
+    <item
+        android:id="@+id/menu_random_button"
+        android:title="Random"
+        app:showAsAction="always|withText"/>
+    <group>
+        <item
+            android:id="@+id/menu_ordenar_nombre"
+            android:title="@string/menu_sort_name"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/menu_ordenar_autor"
+            android:title="@string/menu_sort_category"
+            app:showAsAction="never"/>
+    </group>
+    <group>
+        <item
+            android:id="@+id/menu_stack_mode"
+            android:title="Stack Mode"
+            app:showAsAction="never"
+            android:visible="true"/>
+        <item
+            android:id="@+id/menu_spam_mode"
+            android:title="Spam Mode"
+            app:showAsAction="never"
+            android:visible="false"/>
+    </group>
 </menu>

@@ -4,13 +4,18 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
-        android:id="@+id/menu_seasonScreen"
-        android:title="@string/menu_see_season"
+        android:id="@+id/menu_whats_new"
+        android:title="@string/menu_what_s_new"
         app:showAsAction="never"/>
 
     <item
         android:id="@+id/menu_aboutUs"
         android:title="@string/menu_about_app"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/menu_log_out"
+        android:title="@string/menu_log_out"
         app:showAsAction="never"/>
 
 </menu>

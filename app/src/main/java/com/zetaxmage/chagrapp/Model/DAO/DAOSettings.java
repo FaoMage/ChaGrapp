@@ -11,11 +11,11 @@ import android.database.sqlite.SQLiteDatabase;
 
 public class DAOSettings extends DataBaseHelper{
 
-    public static final String TABLE_NAME_SETTINGS = "Settings";
-    public static final String NAME_SETTING = "SettingName";
-    public static final String VALUE_SETTING = "SettingValue";
+    static final String TABLE_NAME_SETTINGS = "Settings";
+    static final String NAME_SETTING = "SettingName";
+    static final String VALUE_SETTING = "SettingValue";
 
-    public static final String AUDIO_FORMAT_SETTING = "audio_format_setting";
+    private static final String AUDIO_FORMAT_SETTING = "audio_format_setting";
 
     private long result = -1;
 
@@ -50,7 +50,7 @@ public class DAOSettings extends DataBaseHelper{
 
         Cursor cursor = db.rawQuery(query,null);
         cursor.moveToFirst();
-        Integer value = cursor.getInt(cursor.getColumnIndex(VALUE_SETTING));
+        int value = cursor.getInt(cursor.getColumnIndex(VALUE_SETTING));
 
         cursor.close();
         db.close();
@@ -63,7 +63,7 @@ public class DAOSettings extends DataBaseHelper{
         SQLiteDatabase db = getWritableDatabase();
 
         ContentValues contentValues = new ContentValues();
-        contentValues.put(DAOSettings.NAME_SETTING,DAOSettings.AUDIO_FORMAT_SETTING);
+        contentValues.put(DAOSettings.NAME_SETTING, DAOSettings.AUDIO_FORMAT_SETTING);
         contentValues.put(DAOSettings.VALUE_SETTING,1);
         db.insert(DAOSettings.TABLE_NAME_SETTINGS,null,contentValues);
 

@@ -23,12 +23,12 @@ import java.util.List;
 
 public class DAOAudio extends DataBaseHelper{
 
-    public static final String TABLE_NAME_AUDIO = "Audios";
-    public static final String ID_AUDIO = "audioId";
-    public static final String DISPLAY_NAME_AUDIO = "audioDisplayName";
-    public static final String DISPLAY_AUTHOR_NAME = "audioDisplayAuthor";
-    public static final String RAW_NAME_AUDIO = "audioRawName";
-    public static final String AUDIO_SHOW = "audioShow";
+    static final String TABLE_NAME_AUDIO = "Audios";
+    static final String ID_AUDIO = "audioId";
+    static final String DISPLAY_NAME_AUDIO = "audioDisplayName";
+    static final String DISPLAY_AUTHOR_NAME = "audioDisplayAuthor";
+    static final String RAW_NAME_AUDIO = "audioRawName";
+    static final String AUDIO_SHOW = "audioShow";
 
     private Context context;
 
@@ -64,7 +64,7 @@ public class DAOAudio extends DataBaseHelper{
             String name = cursor.getString(cursor.getColumnIndex(DISPLAY_NAME_AUDIO));
             String author = cursor.getString(cursor.getColumnIndex(DISPLAY_AUTHOR_NAME));
             String raw = cursor.getString(cursor.getColumnIndex(RAW_NAME_AUDIO));
-            Integer show = cursor.getInt(cursor.getColumnIndex(AUDIO_SHOW));
+            int show = cursor.getInt(cursor.getColumnIndex(AUDIO_SHOW));
             if (show == 1) {
                 audioList.add(new Audio(id, name, author, raw, show));
             }
